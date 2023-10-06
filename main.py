@@ -10,7 +10,9 @@ for height in student_heights:
 number_student = 0
 for student in student_heights:
     number_student += 1
-print(number_student)
+
+average_height = round(total_height / number_student)
+print(f"Average height - {average_height}")
 
 
 
